@@ -1,0 +1,9 @@
+details:
+  first_name:
+    type: string
+  last_name:
+    type: string
+  username:
+    unique: true
+    type: string
+plural: users

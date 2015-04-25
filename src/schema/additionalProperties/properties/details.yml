@@ -1,0 +1,20 @@
+type: object
+additionalProperties:
+  type: object
+  properties:
+    detail:
+      type: string
+    model:
+      type: string
+    name:
+      type: string
+    regex:
+      type: string
+    required:
+      type: boolean
+    type:
+      enum:
+      - number
+      - string
+    unique:
+      type: boolean

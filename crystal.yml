@@ -1,0 +1,12 @@
+name: models
+type: schematic
+version: 0.1.0
+description: 'Configuration Schematic for [Crystal](http://crystal.sh)'
+
+dependencies:
+  configurations:
+    studiotate: latest
+
+repository:
+  type: git
+  url: https://github.com/crystal-schema/models

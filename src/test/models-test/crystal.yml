@@ -1,0 +1,9 @@
+name: models-test
+type: test
+version: 0.1.0
+
+dependencies:
+  schematics:
+    models:
+      schema: models
+      version: latest
